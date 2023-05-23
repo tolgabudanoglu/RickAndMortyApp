@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/characterFragment">
+
+    <fragment
+        android:id="@+id/characterFragment"
+        android:name="com.example.rickandmortyapp.CharacterFragment"
+        android:label="fragment_character"
+        tools:layout="@layout/fragment_character" />
+    <fragment
+        android:id="@+id/episodeFragment"
+        android:name="com.example.rickandmortyapp.EpisodeFragment"
+        android:label="fragment_episode"
+        tools:layout="@layout/fragment_episode" />
+    <fragment
+        android:id="@+id/placeFragment"
+        android:name="com.example.rickandmortyapp.PlaceFragment"
+        android:label="fragment_place"
+        tools:layout="@layout/fragment_place" />
+</navigation>
